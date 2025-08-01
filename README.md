@@ -1,5 +1,3 @@
-![](readme/solana-pumpfun-bot.png)
-
 **Solana PumpFun Bot** that listens to new Pump.Fun && Raydium pools and buys tokens for a fixed amount in WSOL.
 Depending on the speed of the RPC node, the purchase usually happens before the token is available on UI for swapping. This program took me two months to complete, and I hope it will be helpful to everyone looking to snipe tokens on Solana!
 
@@ -35,8 +33,6 @@ Note: Even for testing, besides using WSOL as the exchange token, it’s importa
 16. `BIRDEYE_API_KEY=` (TP/SL, Burn/Lock) You can use the default link in the .env file, it works fine and does not need to be changed. Go here if you want to generate it yourself : https://docs.birdeye.so/docs/authentication-api-keys
 
 **Don't forget to check Birdeye API, if API key is not working, some bot functions such as TP/SL, Min/Max Liquidity etc may not work correctly or not work at all. If you follow the instructions there should be no errors.
-
-![](readme/birdeye.png)
 
 ![](readme/env.png)
   
